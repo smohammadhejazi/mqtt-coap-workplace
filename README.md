@@ -15,7 +15,9 @@ pip install -r requirements.txt
 also for using MQTT you need to run the Mosquitto broker, you can use this link to download [this](https://mosquitto.org/download/ "this") the open source broker, then execute mosquitto.exe.
 
 You also need to install MongoDB and create 'central_server' databae with below collections:
+
 activity, admin, admin_token, office, office_token, sequence, user, user_token
+
 ### Run the project
 Now run the python codes.
 local_server.py needs two env args, first is the type of connection to personnel nodes and 
