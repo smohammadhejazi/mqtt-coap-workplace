@@ -1,4 +1,4 @@
-# Workplace simulation using MQTT and COAP using Python
+# Workplace simulation using MQTT or COAP written in Python
 This project was and assignment in IOT course. It's a simulation of a workplace consisting of personnel room nodes, local server, central server and admin written in Python.
 
 # Features
