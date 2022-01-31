@@ -21,13 +21,14 @@ Now run the python codes.
 local_server.py needs two env args, first is the type of connection to personnel nodes and 
 and the name of the office.
 personnel.py also needs the connection type from env args.
+For MQTT
 ```sh
 python central_server.py
 python local_server.py mqtt office1 <--- this is registered office name by admin
 python admin_server.py
 python personnel.py mqtt
 ```
-for coap:
+For coap:
 ```sh
 python central_server.py
 python local_server.py coap office1 <--- this is registered office name by admin
