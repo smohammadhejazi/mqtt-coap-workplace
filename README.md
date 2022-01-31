@@ -1,5 +1,5 @@
-#  Workplace simulation using MQTT and COAP
-This project wat and assignment in IOT course. It's a simulation of a workplace consisting of personnel room nodes, local server, central server and admin.
+# Workplace simulation using MQTT and COAP using Python
+This project was and assignment in IOT course. It's a simulation of a workplace consisting of personnel room nodes, local server, central server and admin written in Python.
 
 # Features
 - Personnel nodes communicate with local server and local server communicate with central server. Admins can communicate with central server directly.
@@ -14,8 +14,7 @@ pip install -r requirements.txt
 ```
 also for using MQTT you need to run the Mosquitto broker, you can use this link to download [this](https://mosquitto.org/download/ "this") the open source broker, then execute mosquitto.exe.
 
-You also need to install MongoDB and create 'central_server' databae with below collections:
-
+You also need to install MongoDB and create 'central_server' databae with below collections: 
 activity, admin, admin_token, office, office_token, sequence, user, user_token
 
 ### Run the project
